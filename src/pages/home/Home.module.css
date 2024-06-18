@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    margin: 1% 0%;
+    font-weight: bold;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+        transition: transform 0.3s ease;
+    }
+}
